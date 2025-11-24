@@ -1,0 +1,47 @@
+[
+    {
+        "timestamp": "2025-11-24T13:09:58.023870",
+        "mood": "low",
+        "energy": "drained",
+        "objectives": [
+            "read a book"
+        ],
+        "summary": "My advice is to start with a short reading session of 15-20 minutes to ease into your objective of reading a book today."
+    },
+    {
+        "timestamp": "2025-11-24T13:21:09.127549",
+        "mood": "low",
+        "energy": "exhausted",
+        "objectives": [
+            "practice singing"
+        ],
+        "summary": "When feeling low and exhausted, focus on small, manageable steps for your objective, like a short singing practice."
+    },
+    {
+        "timestamp": "2025-11-24T13:21:26.341593",
+        "mood": "low",
+        "energy": "exhausted",
+        "objectives": [
+            "practice singing"
+        ],
+        "summary": "You're feeling low and exhausted, and your goal is to practice singing. My advice was to break this down into a small, manageable step, like 5-10 minutes of warm-ups or one song."
+    },
+    {
+        "timestamp": "2025-11-24T13:22:01.670496",
+        "mood": "low",
+        "energy": "exhausted",
+        "objectives": [
+            "practice singing"
+        ],
+        "summary": "Approach singing practice gently, focusing on a small, manageable step without pressure, given current low mood and exhaustion."
+    },
+    {
+        "timestamp": "2025-11-24T13:58:43.197263",
+        "mood": "exhausted",
+        "energy": "exhausted",
+        "objectives": [
+            "read a self-help book"
+        ],
+        "summary": "You're feeling exhausted, and your objective is to read a self-help book; remember to take it in small steps."
+    }
+]
