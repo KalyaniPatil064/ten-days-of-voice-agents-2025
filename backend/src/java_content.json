@@ -1,0 +1,26 @@
+[
+    {
+        "id": "oop",
+        "title": "Object-Oriented Programming (OOP)",
+        "summary": "OOP is a programming paradigm based on the concept of 'objects', which can contain data and code. Its four pillars are Encapsulation, Abstraction, Inheritance, and Polymorphism.",
+        "sample_question": "Can you name and briefly describe the four fundamental pillars of OOP in Java?"
+    },
+    {
+        "id": "class",
+        "title": "Classes and Objects",
+        "summary": "A class is a blueprint or a template for creating objects. An object is an instance of a class, representing a real-world entity. Classes define state (fields) and behavior (methods).",
+        "sample_question": "What is the key difference between a Class and an Object in Java?"
+    },
+    {
+        "id": "jvm",
+        "title": "Java Virtual Machine (JVM)",
+        "summary": "The JVM is an abstract machine that enables a computer to run Java programs. It is what makes Java platform-independent, by converting bytecode into machine-specific code.",
+        "sample_question": "Explain the role of the JVM in achieving Java's 'Write Once, Run Anywhere' capability."
+    },
+    {
+        "id": "interface",
+        "title": "Interfaces",
+        "summary": "An interface is a blueprint of a class. It can have abstract methods and static/default methods (since Java 8). A class uses the 'implements' keyword to inherit an interface, enforcing a contract.",
+        "sample_question": "What is the main purpose of an Interface in Java, and what keyword is used to link a class to it?"
+    }
+]
