@@ -1,0 +1,26 @@
+[
+    {
+        "question": "What does LearnSphere do?",
+        "answer": "LearnSphere is an EdTech platform offering online courses, live mentorship, and AI-powered study tools."
+    },
+    {
+        "question": "Who is LearnSphere for?",
+        "answer": "Students, job seekers, and professionals who want to upskill in technology, business, and design."
+    },
+    {
+        "question": "Do you have a free tier?",
+        "answer": "Yes, you can access 10 starter courses for free. Paid plans unlock unlimited courses and mentorship."
+    },
+    {
+        "question": "What are your pricing options?",
+        "answer": "Pro plan is \u20b9999/month for unlimited courses. Enterprise training is custom priced."
+    },
+    {
+        "question": "Do you offer corporate training?",
+        "answer": "Yes, we provide tailored training packages for companies looking to upskill their teams."
+    },
+    {
+        "question": "Is mentorship included?",
+        "answer": "Yes, Pro and Enterprise plans include live mentorship sessions with industry experts."
+    }
+]
