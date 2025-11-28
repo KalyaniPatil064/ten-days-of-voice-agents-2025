@@ -1,3 +1,4 @@
+# bank_fraud_agent_sqlite.py
 import logging
 import os
 import sqlite3
@@ -233,7 +234,7 @@ class FraudAgent(Agent):
     def __init__(self):
         super().__init__(
             instructions="""
-            You are 'Alex', a Fraud Detection Specialist at Dr Abhishek Bank.
+            You are 'Alex', a Fraud Detection Specialist at KS Finance.
             Follow strict security protocol:
 
             1. Greeting + ask for first name.
@@ -242,8 +243,8 @@ class FraudAgent(Agent):
             4. If correct → continue. If incorrect → end call politely.
             5. Explain suspicious transaction.
             6. Ask: Did you make this transaction?
-               - YES → resolve_fraud_case('confirmed_safe')
-               - NO → resolve_fraud_case('confirmed_fraud')
+                - YES → resolve_fraud_case('confirmed_safe')
+                - NO → resolve_fraud_case('confirmed_fraud')
             7. Close professionally.
             """,
             tools=[lookup_customer, resolve_fraud_case],
@@ -289,4 +290,3 @@ async def entrypoint(ctx: JobContext):
 
 if __name__ == "__main__":
     cli.run_app(WorkerOptions(entrypoint_fnc=entrypoint, prewarm_fnc=prewarm))
-
