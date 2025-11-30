@@ -1,0 +1,66 @@
+[
+  {
+    "id": "order-f08cf789",
+    "items": [
+      {
+        "product_id": "saree-001",
+        "name": "Traditional Chiffon Saree",
+        "unit_price": 4500,
+        "quantity": 4,
+        "line_total": 18000,
+        "attrs": {
+          "size": "Free"
+        }
+      }
+    ],
+    "total": 18000,
+    "currency": "INR",
+    "created_at": "2025-11-30T11:04:56.670447Z"
+  },
+  {
+    "id": "order-5977fbca",
+    "items": [
+      {
+        "product_id": "saree-001",
+        "name": "Traditional Chiffon Saree",
+        "unit_price": 4500,
+        "quantity": 2,
+        "line_total": 9000,
+        "attrs": {
+          "size": "Free"
+        }
+      }
+    ],
+    "total": 9000,
+    "currency": "INR",
+    "created_at": "2025-11-30T11:10:09.544001Z"
+  },
+  {
+    "id": "order-49edfa09",
+    "items": [
+      {
+        "product_id": "saree-001",
+        "name": "Traditional Chiffon Saree",
+        "unit_price": 4500,
+        "quantity": 2,
+        "line_total": 9000,
+        "attrs": {
+          "size": "Free"
+        }
+      },
+      {
+        "product_id": "kurti-001",
+        "name": "Elegant Cotton Chikankari Kurti",
+        "unit_price": 1800,
+        "quantity": 1,
+        "line_total": 1800,
+        "attrs": {
+          "size": "S"
+        }
+      }
+    ],
+    "total": 10800,
+    "currency": "INR",
+    "created_at": "2025-11-30T11:31:22.894080Z"
+  }
+]
