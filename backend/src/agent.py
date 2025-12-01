@@ -1,19 +1,6 @@
-"""
+
 Day 10 – Voice Improv Battle
 
-This file adapts the Day 9 voice Game Master agent into a voice-first improv
-show host called "Improv Battle". The original voice/STT/TTS/turn-detection/VAD
-plumbing and imports are preserved so it fits into the same voice runtime.
-
-Behaviour summary (implemented as tools exposed to the LLM):
-- start_show(name, max_rounds): initialise session state and introduce the show
-- next_scenario(): advance to the next improv scenario and put the host into awaiting_improv phase
-- record_performance(performance): save the player's improvisation, produce a host reaction
-- summarize_show(): produce a closing summary once rounds complete
-- stop_show(confirm=False): allow graceful early exit
-
-The GameMasterAgent uses these tools and acts as the high-energy improv host.
-"""
 
 import json
 import logging
